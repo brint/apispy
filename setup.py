@@ -11,7 +11,8 @@ config = {
     'install_requires': ['nose'],
     'packages': ['apispy'],
     'scripts': [],
-    'name': 'apispy'
+    'name': 'apispy',
+    'install_requires': ['python-novaclient']
 }
 
 setup(**config)
